@@ -1,0 +1,13 @@
+{
+  "name": "telnyx-mock-server-proxy",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:team-telnyx/telnyx-mock-server-proxy.git",
+  "author": "Drew Kitch <drew@telnyx.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "http-proxy-middleware": "^2.0.1",
+    "morgan": "^1.10.0"
+  }
+}
