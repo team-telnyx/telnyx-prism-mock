@@ -7,8 +7,8 @@ const app = express();
 
 // Configuration
 const PORT = 12111;
-const HOST = "localhost";
-const API_SERVICE_URL = "http://localhost:4010";
+const HOST = "0.0.0.0";
+const API_SERVICE_URL = "http://0.0.0.0:4010";
 
 // Logging
 app.use(morgan('combined'));
