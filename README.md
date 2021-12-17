@@ -1,6 +1,8 @@
 # telnyx-prism-mock
 Simple service for modifying/routing requests originally intended for telnyx-mock to be processed by prism mock server.
 
+![image](https://user-images.githubusercontent.com/1088926/146568751-ee5ccd50-c639-499c-af45-674bea908728.png)
+
 ## Installation
 
 #### Manual Setup
