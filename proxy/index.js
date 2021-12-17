@@ -17,6 +17,7 @@ app.use(morgan('combined'));
 const proxyMiddleware = createProxyMiddleware({
   target: API_SERVICE_URL,
   changeOrigin: true,
+// eslint-disable-next-line
   pathRewrite: {
     ['^/v2/']: '/',
   },
