@@ -5,6 +5,7 @@ Simple service for modifying/routing requests originally intended for telnyx-moc
 
 #### Manual Setup
 1. git clone repo
+1. `cd telnyx-prism-mock/proxy`
 1. `yarn install`
 1. `node index.js`
 1. (in separate terminal) `prism mock https://raw.githubusercontent.com/team-telnyx/openapi/master/openapi/spec3.json`
