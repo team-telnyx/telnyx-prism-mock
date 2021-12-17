@@ -18,7 +18,7 @@ const proxyMiddleware = createProxyMiddleware({
   target: API_SERVICE_URL,
   changeOrigin: true,
   pathRewrite: {
-      [`^/v2/`]: '/',
+    ['^/v2/']: '/',
   },
   logLevel: 'debug'
 });
